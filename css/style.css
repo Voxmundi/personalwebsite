@@ -1,0 +1,211 @@
+
+@font-face {
+font-family: DarbySans-Light-Web;
+src: url('../fonts/DarbySans-Light-Web.woff');
+}
+@font-face {
+font-family: DarbySans-Medium-Web;
+src: url('../fonts/DarbySans-Medium-Web.woff');
+}
+@font-face {
+font-family: DarbySans-Regular-Web;
+src: url('../fonts/DarbySans-Regular-Web.woff');
+}
+@font-face {
+font-family: DarbySansPoster-Light-Web;
+src: url('../fonts/DarbySansPoster-Light-Web.woff');
+}
+@font-face {
+font-family: DarbySansPoster-Regular-Web;
+src: url('../fonts/DarbySansPoster-Regular-Web.woff');
+}
+html {-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+body{
+	color:#333;
+	background: #f6f6f6;
+
+}
+div{
+	/*border:1px solid red;*/
+}
+p{
+	font-family: DarbySans-Light-Web;
+	text-align: justify;
+	font-size: 1.2rem;
+    line-height: 1.375;
+    color: #382F2E;
+
+
+}
+h1 {font-family: DarbySansPoster-Light-Web;}
+h2 {font-family: DarbySansPoster-Light-Web;}
+h3 {font-family: DarbySansPoster-Light-Web;}
+h4 {font-family: DarbySansPoster-Light-Web;}
+
+i {
+	margin-right: 10px;
+}
+
+.contact{
+    
+    margin-bottom:36px;
+}
+.lefty{
+	position: relative;
+}
+
+.hr-line{
+	border-bottom: 5px;
+	border-bottom-color: #FF523A;
+}
+
+.nav {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.active{
+	content: "";
+	border-bottom: 1px solid #FF523A;
+}
+
+.nav-item{
+	font-size: 1.3em;
+	font-family: DarbySans-Light-Web;
+	text-align: right;
+	padding-top: 24px;
+	color: #382F2E;
+
+
+}
+
+.seperator{
+	font-size: 1.3em;
+	font-family: DarbySans-Light-Web;
+	text-align: right;
+	padding-top: 24px;
+	padding-top: 16px;
+}
+
+.nav-item:hover{
+	border-bottom: 1px solid #FF523A;
+	cursor: pointer;
+
+}
+
+.nav-title{
+	font-size: 2em;
+	font-family: DarbySansPoster-Light-Web;
+	text-align: left;
+	color: #f82F2E;
+	margin-bottom: 24px;
+}
+
+a{
+	color:#222;
+	text-decoration: none;
+
+
+}
+
+a:hover{
+	color:#FF523A;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+.mt-24{
+	margin-top: 24px;
+}
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.mt-48{
+	margin-top: 48px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+.mb-100{
+	margin-bottom: 104px;
+}
+
+.pb-24{
+	padding-bottom: 24px;
+}
+.pb-48{
+	padding-bottom: 48px;
+}
+
+.nav-active{
+	border-bottom: 1px solid #FF523A;
+
+}
+
+.bordered{
+	border: 1px solid #FF523A;
+}
+
+.tborder{
+	content: "";
+	border-top: 1px solid #FF523A;
+}
+
+.bborder{
+	border-bottom: 1px solid #FF523A;
+}
+
+#about{
+	/*display:none;*/
+}
+
+#skills{
+	display:none;
+}
+
+#works{
+	display:none;
+}
+#experience{
+	display:none;
+}
+
+#startups{
+	display:none;
+}
+#commercial{
+	display:none;
+}
+#advertising{
+	display:none;
+}
+
+
+
+
+
+
+.project-img{
+	border-radius: 8px;
+	width: 100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-bottom: 24px;
+}
+
+
+.project-role{
+	font-family: DarbySans-Light-Web;
+	
+	
+
+}
+
+.project-desc{
+	position: relative;
+	
+
+}
+
